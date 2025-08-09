@@ -10,6 +10,7 @@
   <body>
     <div class="title">Information!</div>
 
+    <div id="allItems">
     <img src="./images/barberry.png" alt="barberry">
     <div class="text">This is a type of plant. We love this one.</div>
 
@@ -21,10 +22,51 @@
 
     <img src="./images/saffron.png" alt="saffron">
     <div class="text">I'm running out of things to say about plants.</div>
-
+    </div>
     <!-- disregard this section, it's here to give attribution to the creator of these icons -->
     <div class="footer">
       <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
+    <style>
+      body {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  display: flex;
+  font-size: 36px;
+  font-weight: 900;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+/* do not edit this footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+#allItems {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+.text {
+  max-width: 200px;
+}
+
+    </style>
   </body>
 </html>
